@@ -4,7 +4,9 @@ import io from 'socket.io-client';
 import { useEffect, useState } from 'react';
 import MessageContainer from './Container';
 
-const socket = io.connect('http://localhost:3001');
+const socket = io.connect(
+  'http://striimipalvelu.norwayeast.cloudapp.azure.com'
+);
 
 const Chat = () => {
   const [username, setUsername] = useState('');
