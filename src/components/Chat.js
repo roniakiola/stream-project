@@ -2,10 +2,10 @@ import '../css/index.css';
 import Button from './Button';
 import io from 'socket.io-client';
 import { useEffect, useState } from 'react';
-import MessageContainer from './Container';
+import MessageContainer from './MessageContainer';
 
 const socket = io.connect(
-  'http://striimipalvelu.norwayeast.cloudapp.azure.com'
+  'wss://striimipalvelu.norwayeast.cloudapp.azure.com:443'
 );
 
 const Chat = () => {
