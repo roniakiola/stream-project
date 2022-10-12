@@ -1,0 +1,28 @@
+/* disablee ku editit tehty */
+/* .vjs-user-inactive .vjs-control-bar {
+  visibility: visible !important;
+  opacity: 1 !important;
+  transition-duration: 0s !important;
+} */
+.vjs-oma.video-js {
+  --vjs-theme-forest--primary: rgba(97, 113, 119, 1);
+  --vjs-theme-forest--secondary: white;
+}
+.vjs-oma.vjs-big-play-button:focus,
+.vjs-oma:hover .vjs-big-play-button {
+  background: play-circle;
+}
+@media only screen and (min-width: 1024px) {
+  .video-js.vjs-fluid {
+    max-height: calc(100vh - 64.75px);
+    position: relative !important;
+    height: auto !important;
+    padding-top: 0 !important;
+  }
+}
+.vjs-control-bar {
+  line-height: 1;
+}
+.hidescrollbar::-webkit-scrollbar {
+  display: none;
+}

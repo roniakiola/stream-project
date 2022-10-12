@@ -34,6 +34,7 @@ const Navbar = () => {
                 <Link
                   className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-200 text-lg hover:opacity-75'
                   to='/'
+                  onClick={() => setNavbarOpen(!navbarOpen)}
                 >
                   Etusivu
                 </Link>
@@ -42,6 +43,7 @@ const Navbar = () => {
                 <Link
                   className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-200 text-lg hover:opacity-75'
                   to='/striimi'
+                  onClick={() => setNavbarOpen(!navbarOpen)}
                 >
                   Striimi
                 </Link>
@@ -50,6 +52,7 @@ const Navbar = () => {
                 <Link
                   className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-200 text-lg hover:opacity-75'
                   to='/ohjelma'
+                  onClick={() => setNavbarOpen(!navbarOpen)}
                 >
                   Ohjelma
                 </Link>
@@ -58,6 +61,7 @@ const Navbar = () => {
                 <Link
                   className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-200 text-lg hover:opacity-75'
                   to='/yhteystiedot'
+                  onClick={() => setNavbarOpen(!navbarOpen)}
                 >
                   Yhteystiedot
                 </Link>
